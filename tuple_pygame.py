@@ -5,7 +5,7 @@ pygame.init()
 WIDTH, HEIGHT = 800, 600
 FPS = 60
 
-window = pygame.display.set_mode((WIDTH, HEIGHT)) #создаем окно с картежем высоты и ширины экрана
+window = pygame.display.set_mode((WIDTH, HEIGHT)) #создаем окно с кортежем высоты и ширины экрана
 clock = pygame.time.Clock() #контролируем кл/во кадров в секунду
 
 #главный игровой цикл
